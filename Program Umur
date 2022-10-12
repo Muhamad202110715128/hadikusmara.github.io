@@ -1,0 +1,24 @@
+print ("\t\t\t Muhamad Rahmat Ditilah Sawalna")
+print ("\t\t\t TF3A3")
+print ("\t\t\t 202110715128")
+
+print ("\t\t\t=====================================")
+print ("\t\t\t Program Menentukan Umur")
+print ("\t\t\t=====================================")
+print ("")
+
+umur = input("Masukann umur anda : ")
+if int (umur) >= 65 :
+    keterangan = "Usia Pensiun"
+elif int (umur) >= 25 :
+    keterangan = "Usia Produktif"
+elif int (umur) >= 15 :
+    keterangan = "Usia Remaja"
+elif int (umur) >= 15 :
+    keterangan = "Usia Remaja"
+elif int (umur) >= 1 :
+    keterangan = "Usia Anak-anak"
+else :
+    keterangan = "Kondisi salah"
+
+print("Umur anda",umur,"Artinya",keterangan)
